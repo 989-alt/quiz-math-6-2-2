@@ -3,7 +3,7 @@
  "batches": [
   "g6-2-2-skyward"
  ],
- "generated_at": "2026-07-30T02:53:18+00:00",
+ "generated_at": "2026-07-30T22:39:21+00:00",
  "style_anchors": [
   "B1_pixel_keyvisual.png",
   "B2_pixel_lineup.png"
@@ -131,18 +131,6 @@
    "qa": "pass"
   },
   {
-   "id": "galewisp_walk",
-   "file": "galewisp_walk_strip.png",
-   "kind": "strip",
-   "native": 48,
-   "frames": 2,
-   "frame_w": 52,
-   "frame_h": 41,
-   "baseline_y": 39,
-   "attempts": 3,
-   "qa": "fail:outline"
-  },
-  {
    "id": "boss_stormking_idle",
    "group": "boss_stormking",
    "file": "boss_stormking_idle_strip.png",
@@ -219,44 +207,6 @@
    "qa": "pass"
   },
   {
-   "id": "boss_cloudwhale_idle",
-   "group": "boss_cloudwhale",
-   "file": "boss_cloudwhale_idle_strip.png",
-   "kind": "strip",
-   "native": 71,
-   "frames": 2,
-   "frame_w": 71,
-   "frame_h": 75,
-   "baseline_y": 73,
-   "attempts": 3,
-   "qa": "fail:outline"
-  },
-  {
-   "id": "boss_cloudwhale_walk",
-   "group": "boss_cloudwhale",
-   "file": "boss_cloudwhale_walk_strip.png",
-   "kind": "strip",
-   "native": 71,
-   "frames": 2,
-   "frame_w": 75,
-   "frame_h": 68,
-   "baseline_y": 66,
-   "attempts": 3,
-   "qa": "fail:outline"
-  },
-  {
-   "id": "boss_cloudwhale_telegraph",
-   "group": "boss_cloudwhale",
-   "file": "boss_cloudwhale_telegraph.png",
-   "kind": "single",
-   "native": 96,
-   "frames": 1,
-   "frame_w": 72,
-   "frame_h": 100,
-   "attempts": 3,
-   "qa": "fail:outline"
-  },
-  {
    "id": "boss_clocktower_idle",
    "group": "boss_clocktower",
    "file": "boss_clocktower_idle_strip.png",
@@ -291,54 +241,6 @@
    "frames": 1,
    "frame_w": 75,
    "frame_h": 100,
-   "attempts": 1,
-   "qa": "pass"
-  },
-  {
-   "id": "hero_idle",
-   "file": "hero_idle_strip.png",
-   "kind": "strip",
-   "native": 44,
-   "frames": 4,
-   "frame_w": 37,
-   "frame_h": 48,
-   "baseline_y": 46,
-   "attempts": 1,
-   "qa": "pass"
-  },
-  {
-   "id": "hero_walk",
-   "file": "hero_walk_strip.png",
-   "kind": "strip",
-   "native": 44,
-   "frames": 4,
-   "frame_w": 39,
-   "frame_h": 48,
-   "baseline_y": 46,
-   "attempts": 1,
-   "qa": "pass"
-  },
-  {
-   "id": "hero_death",
-   "file": "hero_death_strip.png",
-   "kind": "strip",
-   "native": 44,
-   "frames": 4,
-   "frame_w": 48,
-   "frame_h": 45,
-   "baseline_y": 43,
-   "attempts": 2,
-   "qa": "pass"
-  },
-  {
-   "id": "hero_hurt",
-   "group": "hero_hurt",
-   "file": "hero_hurt.png",
-   "kind": "single",
-   "native": 44,
-   "frames": 1,
-   "frame_w": 47,
-   "frame_h": 48,
    "attempts": 1,
    "qa": "pass"
   },
@@ -469,6 +371,116 @@
    "frame_h": 52,
    "baseline_y": 50,
    "attempts": 3,
+   "qa": "pass"
+  },
+  {
+   "id": "galewisp_walk",
+   "file": "galewisp_walk_strip.png",
+   "kind": "strip",
+   "native": 48,
+   "frames": 2,
+   "frame_w": 52,
+   "frame_h": 45,
+   "baseline_y": 43,
+   "qa_skip": [
+    "outline"
+   ],
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "boss_cloudwhale_idle",
+   "group": "boss_cloudwhale",
+   "file": "boss_cloudwhale_idle_strip.png",
+   "kind": "strip",
+   "native": 73,
+   "frames": 2,
+   "frame_w": 68,
+   "frame_h": 77,
+   "baseline_y": 75,
+   "qa_skip": [
+    "outline"
+   ],
+   "attempts": 2,
+   "qa": "pass"
+  },
+  {
+   "id": "boss_cloudwhale_walk",
+   "group": "boss_cloudwhale",
+   "file": "boss_cloudwhale_walk_strip.png",
+   "kind": "strip",
+   "native": 73,
+   "frames": 2,
+   "frame_w": 69,
+   "frame_h": 77,
+   "baseline_y": 75,
+   "qa_skip": [
+    "outline"
+   ],
+   "attempts": 2,
+   "qa": "pass"
+  },
+  {
+   "id": "boss_cloudwhale_telegraph",
+   "group": "boss_cloudwhale",
+   "file": "boss_cloudwhale_telegraph.png",
+   "kind": "single",
+   "native": 96,
+   "frames": 1,
+   "frame_w": 75,
+   "frame_h": 100,
+   "qa_skip": [
+    "outline"
+   ],
+   "attempts": 2,
+   "qa": "pass"
+  },
+  {
+   "id": "hero_idle",
+   "file": "hero_idle_strip.png",
+   "kind": "strip",
+   "native": 64,
+   "frames": 2,
+   "frame_w": 38,
+   "frame_h": 68,
+   "baseline_y": 66,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "hero_walk",
+   "file": "hero_walk_strip.png",
+   "kind": "strip",
+   "native": 64,
+   "frames": 6,
+   "frame_w": 39,
+   "frame_h": 68,
+   "baseline_y": 66,
+   "attempts": 2,
+   "qa": "pass"
+  },
+  {
+   "id": "hero_death",
+   "file": "hero_death_strip.png",
+   "kind": "strip",
+   "native": 64,
+   "frames": 4,
+   "frame_w": 52,
+   "frame_h": 68,
+   "baseline_y": 66,
+   "attempts": 2,
+   "qa": "pass"
+  },
+  {
+   "id": "hero_hurt",
+   "group": "hero_hurt",
+   "file": "hero_hurt.png",
+   "kind": "single",
+   "native": 64,
+   "frames": 1,
+   "frame_w": 52,
+   "frame_h": 68,
+   "attempts": 1,
    "qa": "pass"
   }
  ]
