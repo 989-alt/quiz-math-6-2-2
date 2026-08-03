@@ -3,7 +3,7 @@
  "batches": [
   "g6-2-2-skyward"
  ],
- "generated_at": "2026-07-30T22:39:21+00:00",
+ "generated_at": "2026-08-03T03:02:17+00:00",
  "style_anchors": [
   "B1_pixel_keyvisual.png",
   "B2_pixel_lineup.png"
@@ -260,18 +260,6 @@
    "qa": "pass"
   },
   {
-   "id": "deco_cloudbank",
-   "group": "deco_cloudbank",
-   "file": "deco_cloudbank.png",
-   "kind": "single",
-   "native": 48,
-   "frames": 1,
-   "frame_w": 52,
-   "frame_h": 25,
-   "attempts": 1,
-   "qa": "pass"
-  },
-  {
    "id": "deco_windmill",
    "group": "deco_windmill",
    "file": "deco_windmill.png",
@@ -480,6 +468,18 @@
    "frames": 1,
    "frame_w": 52,
    "frame_h": 68,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "deco_rope_coil",
+   "group": "deco_rope_coil",
+   "file": "deco_rope_coil.png",
+   "kind": "single",
+   "native": 48,
+   "frames": 1,
+   "frame_w": 52,
+   "frame_h": 41,
    "attempts": 1,
    "qa": "pass"
   }
