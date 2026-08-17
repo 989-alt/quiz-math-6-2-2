@@ -3,7 +3,7 @@
  "batches": [
   "g6-2-2-skyward"
  ],
- "generated_at": "2026-08-03T03:02:17+00:00",
+ "generated_at": "2026-08-17T13:38:10+00:00",
  "style_anchors": [
   "B1_pixel_keyvisual.png",
   "B2_pixel_lineup.png"
@@ -480,6 +480,22 @@
    "frames": 1,
    "frame_w": 52,
    "frame_h": 41,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "mechanic_band",
+   "group": "mechanic_band",
+   "file": "mechanic_band.png",
+   "kind": "single",
+   "native": 128,
+   "frames": 1,
+   "frame_w": 132,
+   "frame_h": 28,
+   "qa_skip": [
+    "density",
+    "outline"
+   ],
    "attempts": 1,
    "qa": "pass"
   }
