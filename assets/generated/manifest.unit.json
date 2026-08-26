@@ -260,6 +260,78 @@
    "qa": "pass"
   },
   {
+   "id": "deco_windmill",
+   "group": "deco_windmill",
+   "file": "deco_windmill.png",
+   "kind": "single",
+   "native": 56,
+   "frames": 1,
+   "frame_w": 49,
+   "frame_h": 60,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "deco_mooring_post",
+   "group": "deco_mooring_post",
+   "file": "deco_mooring_post.png",
+   "kind": "single",
+   "native": 56,
+   "frames": 1,
+   "frame_w": 37,
+   "frame_h": 60,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "deco_crate_stack",
+   "group": "deco_crate_stack",
+   "file": "deco_crate_stack.png",
+   "kind": "single",
+   "native": 48,
+   "frames": 1,
+   "frame_w": 48,
+   "frame_h": 52,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "deco_weather_vane",
+   "group": "deco_weather_vane",
+   "file": "deco_weather_vane.png",
+   "kind": "single",
+   "native": 44,
+   "frames": 1,
+   "frame_w": 29,
+   "frame_h": 48,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "deco_lantern",
+   "group": "deco_lantern",
+   "file": "deco_lantern.png",
+   "kind": "single",
+   "native": 40,
+   "frames": 1,
+   "frame_w": 27,
+   "frame_h": 44,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "deco_propeller",
+   "group": "deco_propeller",
+   "file": "deco_propeller.png",
+   "kind": "single",
+   "native": 48,
+   "frames": 1,
+   "frame_w": 49,
+   "frame_h": 52,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
    "id": "keyart_home",
    "file": "keyart_home.png",
    "kind": "image",
@@ -396,6 +468,18 @@
    "frames": 1,
    "frame_w": 52,
    "frame_h": 68,
+   "attempts": 1,
+   "qa": "pass"
+  },
+  {
+   "id": "deco_rope_coil",
+   "group": "deco_rope_coil",
+   "file": "deco_rope_coil.png",
+   "kind": "single",
+   "native": 48,
+   "frames": 1,
+   "frame_w": 52,
+   "frame_h": 41,
    "attempts": 1,
    "qa": "pass"
   }
